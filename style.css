@@ -1,0 +1,137 @@
+*{
+    font-family:  'Noto Sans', sans-serif;
+    ;
+}
+html{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(97, 92, 92));
+    /* background-image: -webkit-linear-gradient(65deg, #4E31AA 50%, #3A1078 50%); */
+    min-height: 1000px;
+}
+.text{
+    background-color: #a37878;
+    box-shadow:  0 0 1px rgba(0,0,0,0.2);
+    border-radius:15px 15px 15px 15px;
+    border: 10px solid #34495e;
+    color: white;
+    font-size: 1.25rem;
+    resize:none;
+    padding:0.5rem 1rem;
+    width: 100%;
+
+}
+.paragraph{
+    font-size:1.5rem;
+    color: yellow;
+    border-radius: 15px;
+    padding-right: 4%;
+    background-color: rgba(149, 133, 133, 0.2);
+    margin-bottom: -12px;
+    width:100%;
+    text-align: center;
+    padding: 2%;
+}
+/*  */
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+ .middle{
+    position:absolute;
+    width:100%;
+    top:30%;
+    left: 10%;
+    right:10%;
+    margin:500px,400px,300px,300px;
+    width: 80%;
+} 
+h1{
+    font-size:2.3rem;
+    text-shadow: 1px 2px 3px white;
+    text-transform:capitalize;
+}
+.mainbutton{
+    border-radius: 9px;
+    border: 2px solid #2980b9;
+    background:#ecf0f1;
+    font-size: 1rem;
+    width: 100px;
+    font-size: 2rem;
+}
+.mainbutton:hover{
+    border-radius: 12px;
+    border: 2px solid #2980b9;
+    background:#3079bd;
+    font-size: 1rem;
+    width: 100px;
+    font-size: 2rem;
+}
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+.correct{
+    color: yellowgreen;
+}
+.incorrect{
+    color:red;
+    text-decoration: underline;
+}
+@media (max-width:720px){
+    .middle{
+        position:absolute;
+        width:100%;
+        top:20%;
+        left: 2%;
+        right:10%;
+        margin:500px,400px,300px,300px;
+        width: 80%;
+    } 
+    #timer{
+        text-align: left;
+        margin-left: 2%;
+    }
+    .paragraph{
+        padding-left:8% ;
+        padding-bottom:2%;
+        text-align: left;
+        background-color: rgba(215, 223, 39, 0.3);
+        
+    }
+    .mainbutton{
+      margin-top: -10px;
+      float:left;
+      position: relative;
+      left: 2%;
+      
+    }
+}
+@media (min-width:721px) and (max-width:1080px) {
+    .middle{
+        position:absolute;
+        width:100%;
+        top:20%;
+        left: 2%;
+        right:10%;
+        margin:500px,400px,300px,300px;
+        width: 80%;
+        
+    } 
+    #timer{
+        text-align: left;
+        margin-left: 2%;
+    }
+    .paragraph{
+        padding-left:3% ;
+        text-align:left;
+        background-color: rgba(215, 223, 39, 0.3);
+        color: black;
+    }
+    .mainbutton{
+      margin-top: -10px;
+      float:left;
+      position: relative;
+      left: 2%;
+    }}
