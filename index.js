@@ -1,4 +1,4 @@
-const ramdom_quote="http://api.quotable.io/random";
+const ramdom_quote="https://api.quotable.io/random";
 const quotedisplay=document.getElementById('quote')
 const quotedisplayinput=document.getElementById('quoteInput')
 const timerelement=document.getElementById('timer')
